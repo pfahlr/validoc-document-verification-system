@@ -1,0 +1,8 @@
+warp = "0.3"            # Web framework for building the API
+tokio = { version = "1", features = ["full"] }  # Async runtime for networking
+jsonwebtoken = "7.2"     # JWT creation and validation
+serde = { version = "1", features = ["derive"] }  # Serialization/deserialization
+serde_json = "1.0"       # JSON handling
+diesel = { version = "1.4", features = ["postgres"] }  # PostgreSQL ORM
+clap = "3.0"             # Command-line argument parsing
+dotenv = "0.15"          # For handling environment variables
